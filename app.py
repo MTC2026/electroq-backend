@@ -27,7 +27,7 @@ if prompt := st.chat_input("Type your message here..."):
 
         # Call your fine-tuned model via the official client
         completion = client.chat.completions.create(
-            model="Qwen/Qwen2.5-1.5B-Instruct",
+            model="DEVELOPERDARSHAN/electroq-16bit",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=200,
         )
