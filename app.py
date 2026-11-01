@@ -27,7 +27,7 @@ if prompt := st.chat_input("Type your message here..."):
                 HF_API_TOKEN = st.secrets["HF_API_TOKEN"]
                 
                 # Replace with your actual Hugging Face model repository ID
-                MODEL_URL = "https://api-inference.huggingface.co/models/YOUR_USERNAME/YOUR_MODEL_NAME"
+                MODEL_URL = "https://api-inference.huggingface.co/models/DEVELOPERDARSHAN/electroq-16bit"
                 
                 headers = {"Authorization": f"Bearer {HF_API_TOKEN}"}
                 payload = {
