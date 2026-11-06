@@ -1,3 +1,4 @@
-huggingface_hub
 streamlit
-requests
+llama-cpp-python
+huggingface_hub
+
